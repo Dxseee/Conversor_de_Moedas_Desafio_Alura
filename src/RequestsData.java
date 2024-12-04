@@ -11,6 +11,6 @@ public record RequestsData(String base_code, String target_code, double conversi
 
     @Override
     public String toString() {
-        return String.format("Valor %f [%s] corresponde ao valor final de =>>> %f [%s] ",getAmmount()base_code,conversion_result, target_code);
+        return String.format("Valor %f [%s] corresponde ao valor final de =>>> %f [%s] ",getAmmount(),base_code,conversion_result, target_code);
     }
 }
